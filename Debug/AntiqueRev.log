@@ -1,0 +1,58 @@
+﻿2014/08/16 12:31:43 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\Users\Administrator\Documents\GitHub\AntiqueRev\AntiqueRev.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\administrator\documents\github\antiquerev\nops.h(20): warning C4552: '>>' : 演算子にプログラム上の作用がありません。作用を伴う演算子を使用してください
+     1>main.c(29): warning C4305: '初期化中' : 'int' から 'char' へ切り詰めます。
+     1>main.c(31): warning C4305: '+=' : 'int' から 'char' へ切り詰めます。
+     1>main.c(95): warning C4305: '初期化中' : 'int' から 'char' へ切り詰めます。
+     1>main.c(96): warning C4305: '初期化中' : 'int' から 'char' へ切り詰めます。
+     1>main.c(98): warning C4305: '+=' : 'int' から 'char' へ切り詰めます。
+     1>main.c(99): warning C4305: '+=' : 'int' から 'char' へ切り詰めます。
+     1>main.c(123): warning C4047: '=' : 間接参照のレベルが 'long' と 'HMODULE' で異なっています。
+     1>main.c(136): warning C4047: '関数' : 間接参照のレベルが 'HINSTANCE' と 'long' で異なっています。
+     1>main.c(136): warning C4024: 'ポインターによる関数の呼び出し' : の型が 1 の仮引数および実引数と異なります。
+     1>main.c(136): warning C4047: '関数' : 間接参照のレベルが 'long' と 'char [100]' で異なっています。
+     1>main.c(136): warning C4024: 'ポインターによる関数の呼び出し' : の型が 3 の仮引数および実引数と異なります。
+     1>main.c(138): warning C4047: '関数' : 間接参照のレベルが 'HINSTANCE' と 'long' で異なっています。
+     1>main.c(138): warning C4024: 'ポインターによる関数の呼び出し' : の型が 1 の仮引数および実引数と異なります。
+     1>main.c(138): warning C4047: '関数' : 間接参照のレベルが 'long' と 'char [20]' で異なっています。
+     1>main.c(138): warning C4024: 'ポインターによる関数の呼び出し' : の型が 3 の仮引数および実引数と異なります。
+     1>main.c(177): warning C4047: '関数' : 間接参照のレベルが 'HINSTANCE' と 'long' で異なっています。
+     1>main.c(177): warning C4024: 'ポインターによる関数の呼び出し' : の型が 1 の仮引数および実引数と異なります。
+     1>main.c(177): warning C4047: '関数' : 間接参照のレベルが 'long' と 'char [30]' で異なっています。
+     1>main.c(177): warning C4024: 'ポインターによる関数の呼び出し' : の型が 3 の仮引数および実引数と異なります。
+     1>main.c(209): warning C4552: '-' : 演算子にプログラム上の作用がありません。作用を伴う演算子を使用してください
+     1>main.c(210): warning C4033: 'isPEB' : 関数には戻り値が必要です。
+     1>main.c(214): warning C4033: 'isPEB' : 関数には戻り値が必要です。
+     1>main.c(228): warning C4033: 'ChangeSizeOfImage' : 関数には戻り値が必要です。
+     1>main.c(241): warning C4133: '=' : 'HMODULE' と 'byte *' の間で型に互換性がありません。
+     1>main.c(245): warning C4133: '=' : 'byte *' と 'IMAGE_IMPORT_DESCRIPTOR *' の間で型に互換性がありません。
+     1>main.c(251): warning C4047: '!=' : 間接参照のレベルが 'DWORD' と 'void *' で異なっています。
+     1>main.c(255): warning C4133: '=' : 'byte *' と 'IMAGE_THUNK_DATA *' の間で型に互換性がありません。
+     1>main.c(257): warning C4133: '=' : 'byte *' と 'IMAGE_THUNK_DATA *' の間で型に互換性がありません。
+     1>main.c(272): warning C4047: 'return' : 間接参照のレベルが 'FARPROC' と 'DWORD' で異なっています。
+     1>main.c(287): warning C4305: '初期化中' : 'int' から 'char' へ切り詰めます。
+     1>main.c(288): warning C4305: '初期化中' : 'int' から 'char' へ切り詰めます。
+     1>main.c(297): warning C4047: '関数' : 間接参照のレベルが 'long' と 'char [100]' で異なっています。
+     1>main.c(297): warning C4024: 'ポインターによる関数の呼び出し' : の型が 3 の仮引数および実引数と異なります。
+     1>main.c(301): warning C4047: '関数' : 間接参照のレベルが 'long' と 'char [100]' で異なっています。
+     1>main.c(301): warning C4024: 'ポインターによる関数の呼び出し' : の型が 3 の仮引数および実引数と異なります。
+     1>main.c(306): warning C4305: '+=' : 'int' から 'char' へ切り詰めます。
+     1>main.c(307): warning C4305: '+=' : 'int' から 'char' へ切り詰めます。
+     1>main.c(321): warning C4033: 'isNtQIP' : 関数には戻り値が必要です。
+     1>main.c(326): warning C4305: '初期化中' : 'int' から 'char' へ切り詰めます。
+     1>main.c(331): warning C4305: '+=' : 'int' から 'char' へ切り詰めます。
+     1>main.c(336): warning C4090: '関数' : 異なる 'const' 修飾子です。
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\Resource.res" Resource.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\GitHub\AntiqueRev\Debug\AntiqueRev.exe" /INCREMENTAL /NOLOGO ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Documents\GitHub\AntiqueRev\Debug\AntiqueRev.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\GitHub\AntiqueRev\Debug\AntiqueRev.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\main.obj
+         AntiqueRev.vcxproj -> C:\Users\Administrator\Documents\GitHub\AntiqueRev\Debug\AntiqueRev.exe
+     1>プロジェクト "C:\Users\Administrator\Documents\GitHub\AntiqueRev\AntiqueRev.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:07.31
